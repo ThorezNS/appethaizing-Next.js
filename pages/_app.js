@@ -15,6 +15,14 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name="author" content="Maciej Niemiec" />
         <link rel="icon" href="fork_knife_spoon_icon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Shalimar&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Component {...pageProps} />
     </>
