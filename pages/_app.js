@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Layout from '../components/organisms/Layout/Layout';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
