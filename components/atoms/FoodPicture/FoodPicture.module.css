@@ -1,0 +1,22 @@
+.image {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 556px;
+  height: 370px;
+  border-radius: 0.3rem;
+}
+
+@media screen and (max-width: 590px) {
+  .imageWrapper {
+    width: 410px;
+    height: 320px;
+  }
+}
