@@ -4,7 +4,7 @@ import Image from 'next/image';
 const FoodPicture = ({ src, alt }) => {
   return (
     <div className={styles.imageWrapper}>
-      <Image layout="fill" src={src} alt={alt} className={styles.image} />
+      <Image layout="fill" src={src} alt={alt} />
     </div>
   );
 };
