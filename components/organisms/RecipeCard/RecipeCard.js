@@ -9,7 +9,7 @@ const RecipeCard = ({ recipe }) => {
     <Link href={`/details/${recipe.id}`}>
       <a className={styles.wrapper}>
         <Title card title={recipe.title} />
-        <FoodPicture src={recipe.image} alt={recipe.title} />
+        <FoodPicture card src={recipe.image} alt={recipe.title} />
         {recipe.readyInMinutes && <CardIconsContainer recipe={recipe} />}
       </a>
     </Link>

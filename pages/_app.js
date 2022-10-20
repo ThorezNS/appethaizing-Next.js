@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           content="appetizing! find your favorite recipes with detailed step-by-step instructions"
         />
         <meta name="author" content="Maciej Niemiec" />
-        <link rel="icon" href="fork_knife_spoon_icon.ico" />
+        <link rel="icon" href="/fork_knife_spoon_icon.ico" />
       </Head>
       <Layout>
         <Component {...pageProps} />
