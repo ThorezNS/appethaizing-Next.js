@@ -12,9 +12,7 @@ const CategoryLink = ({ text }) => {
       <Link href={`/category/${text}`}>
         <a
           className={
-            router.pathname === `/category/${text}`
-              ? activeLinkStyle
-              : linkStyle
+            router.asPath === `/category/${text}` ? activeLinkStyle : linkStyle
           }
         >
           {text}
